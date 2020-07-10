@@ -1,0 +1,21 @@
+_id: req_wrk_8ee77d5c113141429d51cc1cc118ab8074f1d1d1
+authentication: {}
+body: {}
+created: 1588191083164
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1588191083164
+method: GET
+modified: 1588191157023
+name: Get user by user name
+parameters: []
+parentId: fld_wrk_8ee77d5c113141429d51cc1cc118ab8012dea96f
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/user/{{ username }}"
